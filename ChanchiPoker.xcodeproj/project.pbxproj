@@ -9,12 +9,50 @@
 /* Begin PBXBuildFile section */
 		240320771C72859800ADB6AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240320761C72859800ADB6AC /* main.m */; };
 		2403207A1C72859800ADB6AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 240320791C72859800ADB6AC /* AppDelegate.m */; };
-		2403207D1C72859800ADB6AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2403207C1C72859800ADB6AC /* ViewController.m */; };
 		240320801C72859800ADB6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2403207E1C72859800ADB6AC /* Main.storyboard */; };
 		240320821C72859800ADB6AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240320811C72859800ADB6AC /* Assets.xcassets */; };
-		240320851C72859800ADB6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240320831C72859800ADB6AC /* LaunchScreen.storyboard */; };
 		240320901C72859800ADB6AC /* ChanchiPokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2403208F1C72859800ADB6AC /* ChanchiPokerTests.m */; };
 		2403209B1C72859800ADB6AC /* ChanchiPokerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2403209A1C72859800ADB6AC /* ChanchiPokerUITests.m */; };
+		240320AA1C7286ED00ADB6AC /* Jugadas.m in Sources */ = {isa = PBXBuildFile; fileRef = 240320A91C7286ED00ADB6AC /* Jugadas.m */; };
+		247F2FBA1C72910D008AAB31 /* ModeloJugada.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F2FB91C72910D008AAB31 /* ModeloJugada.m */; };
+		247F2FBD1C729407008AAB31 /* NuevaJugada.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F2FBC1C729407008AAB31 /* NuevaJugada.m */; };
+		247F2FC01C73009A008AAB31 /* Jugada.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F2FBF1C73009A008AAB31 /* Jugada.m */; };
+		247F2FC31C73034E008AAB31 /* CeldaJugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F2FC21C73034E008AAB31 /* CeldaJugador.m */; };
+		247F2FC61C730502008AAB31 /* ModeloJugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F2FC51C730502008AAB31 /* ModeloJugador.m */; };
+		247F2FC91C731250008AAB31 /* ModeloRecompra.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F2FC81C731250008AAB31 /* ModeloRecompra.m */; };
+		247F2FCC1C732E35008AAB31 /* NuevaRecompra.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F2FCB1C732E35008AAB31 /* NuevaRecompra.m */; };
+		247F2FD01C738CFF008AAB31 /* logo-wsoc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 247F2FCD1C738CFF008AAB31 /* logo-wsoc@2x.png */; };
+		247F2FD11C738CFF008AAB31 /* splash-4s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 247F2FCE1C738CFF008AAB31 /* splash-4s@2x.png */; };
+		247F2FD21C738CFF008AAB31 /* splash-5s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 247F2FCF1C738CFF008AAB31 /* splash-5s@2x.png */; };
+		247F2FD51C738E4E008AAB31 /* icono@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 247F2FD31C738E4E008AAB31 /* icono@2x.png */; };
+		247F2FD61C738E4E008AAB31 /* icono@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 247F2FD41C738E4E008AAB31 /* icono@3x.png */; };
+		248E7B891CEA84F9009751B0 /* Recompras.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E7B881CEA84F9009751B0 /* Recompras.m */; };
+		248E7B8C1CEA8A34009751B0 /* ModeloRecompra2.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E7B8B1CEA8A34009751B0 /* ModeloRecompra2.m */; };
+		24D40F2C1C73945D00A918E3 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D40F2B1C73945D00A918E3 /* Login.m */; };
+		24E577451C7410BE00D05E4D /* urlEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577441C7410BE00D05E4D /* urlEncoding.m */; };
+		24E577641C74116100D05E4D /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577481C74116100D05E4D /* NSData+ImageContentType.m */; };
+		24E577651C74116100D05E4D /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E5774A1C74116100D05E4D /* SDImageCache.m */; };
+		24E577661C74116100D05E4D /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E5774C1C74116100D05E4D /* SDWebImageCompat.m */; };
+		24E577671C74116100D05E4D /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E5774E1C74116100D05E4D /* SDWebImageDecoder.m */; };
+		24E577681C74116100D05E4D /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577501C74116100D05E4D /* SDWebImageDownloader.m */; };
+		24E577691C74116100D05E4D /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577521C74116100D05E4D /* SDWebImageDownloaderOperation.m */; };
+		24E5776A1C74116100D05E4D /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577541C74116100D05E4D /* SDWebImageManager.m */; };
+		24E5776B1C74116100D05E4D /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577571C74116100D05E4D /* SDWebImagePrefetcher.m */; };
+		24E5776C1C74116100D05E4D /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577591C74116100D05E4D /* UIButton+WebCache.m */; };
+		24E5776D1C74116100D05E4D /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E5775B1C74116100D05E4D /* UIImage+GIF.m */; };
+		24E5776E1C74116100D05E4D /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E5775D1C74116100D05E4D /* UIImage+MultiFormat.m */; };
+		24E5776F1C74116100D05E4D /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E5775F1C74116100D05E4D /* UIImageView+HighlightedWebCache.m */; };
+		24E577701C74116100D05E4D /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577611C74116100D05E4D /* UIImageView+WebCache.m */; };
+		24E577711C74116100D05E4D /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577631C74116100D05E4D /* UIView+WebCacheOperation.m */; };
+		24E577741C7433D800D05E4D /* Jugadores.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577731C7433D800D05E4D /* Jugadores.m */; };
+		24E577771C743AE100D05E4D /* Jugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E577761C743AE100D05E4D /* Jugador.m */; };
+		24F631271C862D370027B4D4 /* Ranking.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F631261C862D370027B4D4 /* Ranking.m */; };
+		29E06F007123EBA45C1D0C31 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAC0344CC282A2942D1CCAC /* libPods.a */; };
+		BE264CB7246F8E3500E41258 /* Inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE264CB6246F8E3500E41258 /* Inicio.storyboard */; };
+		BED0F5D9247721B3009D5606 /* CeldaJugada.m in Sources */ = {isa = PBXBuildFile; fileRef = BED0F5D8247721B3009D5606 /* CeldaJugada.m */; };
+		BED0F5DC24772E96009D5606 /* AgregarConsignacion.m in Sources */ = {isa = PBXBuildFile; fileRef = BED0F5DB24772E96009D5606 /* AgregarConsignacion.m */; };
+		BED0F5DE24778FBC009D5606 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = BED0F5DD24778FBB009D5606 /* 1024.png */; };
+		C81BF6351D834A1B00649BA8 /* AdicionarJugador.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BF6341D834A1B00649BA8 /* AdicionarJugador.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +77,8 @@
 		240320761C72859800ADB6AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		240320781C72859800ADB6AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		240320791C72859800ADB6AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2403207B1C72859800ADB6AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2403207C1C72859800ADB6AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2403207F1C72859800ADB6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		240320811C72859800ADB6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		240320841C72859800ADB6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		240320861C72859800ADB6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2403208B1C72859800ADB6AC /* ChanchiPokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChanchiPokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2403208F1C72859800ADB6AC /* ChanchiPokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChanchiPokerTests.m; sourceTree = "<group>"; };
@@ -51,6 +86,82 @@
 		240320961C72859800ADB6AC /* ChanchiPokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChanchiPokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2403209A1C72859800ADB6AC /* ChanchiPokerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChanchiPokerUITests.m; sourceTree = "<group>"; };
 		2403209C1C72859800ADB6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240320A81C7286ED00ADB6AC /* Jugadas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jugadas.h; sourceTree = "<group>"; };
+		240320A91C7286ED00ADB6AC /* Jugadas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jugadas.m; sourceTree = "<group>"; };
+		247F2FB81C72910D008AAB31 /* ModeloJugada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeloJugada.h; sourceTree = "<group>"; };
+		247F2FB91C72910D008AAB31 /* ModeloJugada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeloJugada.m; sourceTree = "<group>"; };
+		247F2FBB1C729407008AAB31 /* NuevaJugada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevaJugada.h; sourceTree = "<group>"; };
+		247F2FBC1C729407008AAB31 /* NuevaJugada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevaJugada.m; sourceTree = "<group>"; };
+		247F2FBE1C73009A008AAB31 /* Jugada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jugada.h; sourceTree = "<group>"; };
+		247F2FBF1C73009A008AAB31 /* Jugada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jugada.m; sourceTree = "<group>"; };
+		247F2FC11C73034E008AAB31 /* CeldaJugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeldaJugador.h; sourceTree = "<group>"; };
+		247F2FC21C73034E008AAB31 /* CeldaJugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeldaJugador.m; sourceTree = "<group>"; };
+		247F2FC41C730502008AAB31 /* ModeloJugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeloJugador.h; sourceTree = "<group>"; };
+		247F2FC51C730502008AAB31 /* ModeloJugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeloJugador.m; sourceTree = "<group>"; };
+		247F2FC71C731250008AAB31 /* ModeloRecompra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeloRecompra.h; sourceTree = "<group>"; };
+		247F2FC81C731250008AAB31 /* ModeloRecompra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeloRecompra.m; sourceTree = "<group>"; };
+		247F2FCA1C732E35008AAB31 /* NuevaRecompra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevaRecompra.h; sourceTree = "<group>"; };
+		247F2FCB1C732E35008AAB31 /* NuevaRecompra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevaRecompra.m; sourceTree = "<group>"; };
+		247F2FCD1C738CFF008AAB31 /* logo-wsoc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-wsoc@2x.png"; sourceTree = "<group>"; };
+		247F2FCE1C738CFF008AAB31 /* splash-4s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-4s@2x.png"; sourceTree = "<group>"; };
+		247F2FCF1C738CFF008AAB31 /* splash-5s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-5s@2x.png"; sourceTree = "<group>"; };
+		247F2FD31C738E4E008AAB31 /* icono@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono@2x.png"; sourceTree = "<group>"; };
+		247F2FD41C738E4E008AAB31 /* icono@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono@3x.png"; sourceTree = "<group>"; };
+		248E7B871CEA84F9009751B0 /* Recompras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recompras.h; sourceTree = "<group>"; };
+		248E7B881CEA84F9009751B0 /* Recompras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recompras.m; sourceTree = "<group>"; };
+		248E7B8A1CEA8A34009751B0 /* ModeloRecompra2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeloRecompra2.h; sourceTree = "<group>"; };
+		248E7B8B1CEA8A34009751B0 /* ModeloRecompra2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeloRecompra2.m; sourceTree = "<group>"; };
+		24D40F2A1C73945D00A918E3 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		24D40F2B1C73945D00A918E3 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		24E577431C7410BE00D05E4D /* urlEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urlEncoding.h; sourceTree = "<group>"; };
+		24E577441C7410BE00D05E4D /* urlEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = urlEncoding.m; sourceTree = "<group>"; };
+		24E577471C74116100D05E4D /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		24E577481C74116100D05E4D /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		24E577491C74116100D05E4D /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		24E5774A1C74116100D05E4D /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		24E5774B1C74116100D05E4D /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		24E5774C1C74116100D05E4D /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		24E5774D1C74116100D05E4D /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		24E5774E1C74116100D05E4D /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		24E5774F1C74116100D05E4D /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		24E577501C74116100D05E4D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		24E577511C74116100D05E4D /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		24E577521C74116100D05E4D /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		24E577531C74116100D05E4D /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		24E577541C74116100D05E4D /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		24E577551C74116100D05E4D /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		24E577561C74116100D05E4D /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		24E577571C74116100D05E4D /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		24E577581C74116100D05E4D /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		24E577591C74116100D05E4D /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		24E5775A1C74116100D05E4D /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		24E5775B1C74116100D05E4D /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		24E5775C1C74116100D05E4D /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		24E5775D1C74116100D05E4D /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		24E5775E1C74116100D05E4D /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		24E5775F1C74116100D05E4D /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		24E577601C74116100D05E4D /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		24E577611C74116100D05E4D /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		24E577621C74116100D05E4D /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		24E577631C74116100D05E4D /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		24E577721C7433D800D05E4D /* Jugadores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jugadores.h; sourceTree = "<group>"; };
+		24E577731C7433D800D05E4D /* Jugadores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jugadores.m; sourceTree = "<group>"; };
+		24E577751C743AE100D05E4D /* Jugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jugador.h; sourceTree = "<group>"; };
+		24E577761C743AE100D05E4D /* Jugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jugador.m; sourceTree = "<group>"; };
+		24F631251C862D370027B4D4 /* Ranking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ranking.h; sourceTree = "<group>"; };
+		24F631261C862D370027B4D4 /* Ranking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ranking.m; sourceTree = "<group>"; };
+		8A577973C0C560AC2A8771C5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BE264CB6246F8E3500E41258 /* Inicio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inicio.storyboard; sourceTree = "<group>"; };
+		BE264CB8246F91AE00E41258 /* ChanchiPoker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChanchiPoker-Bridging-Header.h"; sourceTree = "<group>"; };
+		BED0F5D7247721B3009D5606 /* CeldaJugada.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeldaJugada.h; sourceTree = "<group>"; };
+		BED0F5D8247721B3009D5606 /* CeldaJugada.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeldaJugada.m; sourceTree = "<group>"; };
+		BED0F5DA24772E96009D5606 /* AgregarConsignacion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgregarConsignacion.h; sourceTree = "<group>"; };
+		BED0F5DB24772E96009D5606 /* AgregarConsignacion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgregarConsignacion.m; sourceTree = "<group>"; };
+		BED0F5DD24778FBB009D5606 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		C81BF6331D834A1B00649BA8 /* AdicionarJugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdicionarJugador.h; sourceTree = "<group>"; };
+		C81BF6341D834A1B00649BA8 /* AdicionarJugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdicionarJugador.m; sourceTree = "<group>"; };
+		CDAC0344CC282A2942D1CCAC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85AC0C48D7B559DEB0BC2B8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29E06F007123EBA45C1D0C31 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +197,8 @@
 				2403208E1C72859800ADB6AC /* ChanchiPokerTests */,
 				240320991C72859800ADB6AC /* ChanchiPokerUITests */,
 				240320731C72859800ADB6AC /* Products */,
+				3982744A50B29E806BF23979 /* Pods */,
+				45995A0D8DC7470169943424 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +215,51 @@
 		240320741C72859800ADB6AC /* ChanchiPoker */ = {
 			isa = PBXGroup;
 			children = (
+				2403207E1C72859800ADB6AC /* Main.storyboard */,
+				BE264CB6246F8E3500E41258 /* Inicio.storyboard */,
 				240320781C72859800ADB6AC /* AppDelegate.h */,
 				240320791C72859800ADB6AC /* AppDelegate.m */,
-				2403207B1C72859800ADB6AC /* ViewController.h */,
-				2403207C1C72859800ADB6AC /* ViewController.m */,
-				2403207E1C72859800ADB6AC /* Main.storyboard */,
+				240320A81C7286ED00ADB6AC /* Jugadas.h */,
+				240320A91C7286ED00ADB6AC /* Jugadas.m */,
+				247F2FB81C72910D008AAB31 /* ModeloJugada.h */,
+				247F2FB91C72910D008AAB31 /* ModeloJugada.m */,
+				247F2FBB1C729407008AAB31 /* NuevaJugada.h */,
+				247F2FBC1C729407008AAB31 /* NuevaJugada.m */,
+				247F2FBE1C73009A008AAB31 /* Jugada.h */,
+				247F2FBF1C73009A008AAB31 /* Jugada.m */,
+				247F2FC11C73034E008AAB31 /* CeldaJugador.h */,
+				247F2FC21C73034E008AAB31 /* CeldaJugador.m */,
+				247F2FC41C730502008AAB31 /* ModeloJugador.h */,
+				247F2FC51C730502008AAB31 /* ModeloJugador.m */,
+				247F2FC71C731250008AAB31 /* ModeloRecompra.h */,
+				247F2FC81C731250008AAB31 /* ModeloRecompra.m */,
+				247F2FCA1C732E35008AAB31 /* NuevaRecompra.h */,
+				247F2FCB1C732E35008AAB31 /* NuevaRecompra.m */,
+				24D40F2A1C73945D00A918E3 /* Login.h */,
+				24D40F2B1C73945D00A918E3 /* Login.m */,
+				24E577431C7410BE00D05E4D /* urlEncoding.h */,
+				24E577441C7410BE00D05E4D /* urlEncoding.m */,
+				24E577721C7433D800D05E4D /* Jugadores.h */,
+				24E577731C7433D800D05E4D /* Jugadores.m */,
+				24E577751C743AE100D05E4D /* Jugador.h */,
+				24E577761C743AE100D05E4D /* Jugador.m */,
+				24F631251C862D370027B4D4 /* Ranking.h */,
+				24F631261C862D370027B4D4 /* Ranking.m */,
+				248E7B871CEA84F9009751B0 /* Recompras.h */,
+				248E7B881CEA84F9009751B0 /* Recompras.m */,
+				248E7B8A1CEA8A34009751B0 /* ModeloRecompra2.h */,
+				248E7B8B1CEA8A34009751B0 /* ModeloRecompra2.m */,
+				C81BF6331D834A1B00649BA8 /* AdicionarJugador.h */,
+				C81BF6341D834A1B00649BA8 /* AdicionarJugador.m */,
+				BED0F5D7247721B3009D5606 /* CeldaJugada.h */,
+				BED0F5D8247721B3009D5606 /* CeldaJugada.m */,
+				BED0F5DA24772E96009D5606 /* AgregarConsignacion.h */,
+				BED0F5DB24772E96009D5606 /* AgregarConsignacion.m */,
+				24E577461C74116100D05E4D /* SDWebImage */,
 				240320811C72859800ADB6AC /* Assets.xcassets */,
-				240320831C72859800ADB6AC /* LaunchScreen.storyboard */,
 				240320861C72859800ADB6AC /* Info.plist */,
 				240320751C72859800ADB6AC /* Supporting Files */,
+				BE264CB8246F91AE00E41258 /* ChanchiPoker-Bridging-Header.h */,
 			);
 			path = ChanchiPoker;
 			sourceTree = "<group>";
@@ -117,6 +267,12 @@
 		240320751C72859800ADB6AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BED0F5DD24778FBB009D5606 /* 1024.png */,
+				247F2FCD1C738CFF008AAB31 /* logo-wsoc@2x.png */,
+				247F2FCE1C738CFF008AAB31 /* splash-4s@2x.png */,
+				247F2FCF1C738CFF008AAB31 /* splash-5s@2x.png */,
+				247F2FD31C738E4E008AAB31 /* icono@2x.png */,
+				247F2FD41C738E4E008AAB31 /* icono@3x.png */,
 				240320761C72859800ADB6AC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +296,59 @@
 			path = ChanchiPokerUITests;
 			sourceTree = "<group>";
 		};
+		24E577461C74116100D05E4D /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				24E577471C74116100D05E4D /* NSData+ImageContentType.h */,
+				24E577481C74116100D05E4D /* NSData+ImageContentType.m */,
+				24E577491C74116100D05E4D /* SDImageCache.h */,
+				24E5774A1C74116100D05E4D /* SDImageCache.m */,
+				24E5774B1C74116100D05E4D /* SDWebImageCompat.h */,
+				24E5774C1C74116100D05E4D /* SDWebImageCompat.m */,
+				24E5774D1C74116100D05E4D /* SDWebImageDecoder.h */,
+				24E5774E1C74116100D05E4D /* SDWebImageDecoder.m */,
+				24E5774F1C74116100D05E4D /* SDWebImageDownloader.h */,
+				24E577501C74116100D05E4D /* SDWebImageDownloader.m */,
+				24E577511C74116100D05E4D /* SDWebImageDownloaderOperation.h */,
+				24E577521C74116100D05E4D /* SDWebImageDownloaderOperation.m */,
+				24E577531C74116100D05E4D /* SDWebImageManager.h */,
+				24E577541C74116100D05E4D /* SDWebImageManager.m */,
+				24E577551C74116100D05E4D /* SDWebImageOperation.h */,
+				24E577561C74116100D05E4D /* SDWebImagePrefetcher.h */,
+				24E577571C74116100D05E4D /* SDWebImagePrefetcher.m */,
+				24E577581C74116100D05E4D /* UIButton+WebCache.h */,
+				24E577591C74116100D05E4D /* UIButton+WebCache.m */,
+				24E5775A1C74116100D05E4D /* UIImage+GIF.h */,
+				24E5775B1C74116100D05E4D /* UIImage+GIF.m */,
+				24E5775C1C74116100D05E4D /* UIImage+MultiFormat.h */,
+				24E5775D1C74116100D05E4D /* UIImage+MultiFormat.m */,
+				24E5775E1C74116100D05E4D /* UIImageView+HighlightedWebCache.h */,
+				24E5775F1C74116100D05E4D /* UIImageView+HighlightedWebCache.m */,
+				24E577601C74116100D05E4D /* UIImageView+WebCache.h */,
+				24E577611C74116100D05E4D /* UIImageView+WebCache.m */,
+				24E577621C74116100D05E4D /* UIView+WebCacheOperation.h */,
+				24E577631C74116100D05E4D /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		3982744A50B29E806BF23979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A577973C0C560AC2A8771C5 /* Pods.debug.xcconfig */,
+				E85AC0C48D7B559DEB0BC2B8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45995A0D8DC7470169943424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC0344CC282A2942D1CCAC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +356,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2403209F1C72859800ADB6AC /* Build configuration list for PBXNativeTarget "ChanchiPoker" */;
 			buildPhases = (
+				9C92717B9583217B425F3F76 /* Check Pods Manifest.lock */,
 				2403206E1C72859800ADB6AC /* Sources */,
 				2403206F1C72859800ADB6AC /* Frameworks */,
 				240320701C72859800ADB6AC /* Resources */,
+				3161ACD575F43330C411BB3F /* Embed Pods Frameworks */,
+				D3AC3365411CB46A43DA94AB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +419,8 @@
 				TargetAttributes = {
 					240320711C72859800ADB6AC = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C4BPCW9KZS;
+						LastSwiftMigration = 1130;
 					};
 					2403208A1C72859800ADB6AC = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -223,6 +437,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -243,9 +458,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240320851C72859800ADB6AC /* LaunchScreen.storyboard in Resources */,
+				BED0F5DE24778FBC009D5606 /* 1024.png in Resources */,
+				247F2FD11C738CFF008AAB31 /* splash-4s@2x.png in Resources */,
 				240320821C72859800ADB6AC /* Assets.xcassets in Resources */,
 				240320801C72859800ADB6AC /* Main.storyboard in Resources */,
+				BE264CB7246F8E3500E41258 /* Inicio.storyboard in Resources */,
+				247F2FD51C738E4E008AAB31 /* icono@2x.png in Resources */,
+				247F2FD21C738CFF008AAB31 /* splash-5s@2x.png in Resources */,
+				247F2FD61C738E4E008AAB31 /* icono@3x.png in Resources */,
+				247F2FD01C738CFF008AAB31 /* logo-wsoc@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +486,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3161ACD575F43330C411BB3F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C92717B9583217B425F3F76 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3AC3365411CB46A43DA94AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2403206E1C72859800ADB6AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2403207D1C72859800ADB6AC /* ViewController.m in Sources */,
+				24E577771C743AE100D05E4D /* Jugador.m in Sources */,
+				24E5776D1C74116100D05E4D /* UIImage+GIF.m in Sources */,
+				247F2FC31C73034E008AAB31 /* CeldaJugador.m in Sources */,
+				C81BF6351D834A1B00649BA8 /* AdicionarJugador.m in Sources */,
+				24E5776B1C74116100D05E4D /* SDWebImagePrefetcher.m in Sources */,
+				24D40F2C1C73945D00A918E3 /* Login.m in Sources */,
 				2403207A1C72859800ADB6AC /* AppDelegate.m in Sources */,
+				24F631271C862D370027B4D4 /* Ranking.m in Sources */,
+				24E577641C74116100D05E4D /* NSData+ImageContentType.m in Sources */,
+				247F2FCC1C732E35008AAB31 /* NuevaRecompra.m in Sources */,
+				24E577701C74116100D05E4D /* UIImageView+WebCache.m in Sources */,
+				247F2FBA1C72910D008AAB31 /* ModeloJugada.m in Sources */,
+				24E5776C1C74116100D05E4D /* UIButton+WebCache.m in Sources */,
+				24E577691C74116100D05E4D /* SDWebImageDownloaderOperation.m in Sources */,
+				247F2FBD1C729407008AAB31 /* NuevaJugada.m in Sources */,
+				24E577661C74116100D05E4D /* SDWebImageCompat.m in Sources */,
+				24E577451C7410BE00D05E4D /* urlEncoding.m in Sources */,
+				24E577711C74116100D05E4D /* UIView+WebCacheOperation.m in Sources */,
+				24E5776E1C74116100D05E4D /* UIImage+MultiFormat.m in Sources */,
+				240320AA1C7286ED00ADB6AC /* Jugadas.m in Sources */,
 				240320771C72859800ADB6AC /* main.m in Sources */,
+				247F2FC91C731250008AAB31 /* ModeloRecompra.m in Sources */,
+				24E577681C74116100D05E4D /* SDWebImageDownloader.m in Sources */,
+				24E5776F1C74116100D05E4D /* UIImageView+HighlightedWebCache.m in Sources */,
+				24E577671C74116100D05E4D /* SDWebImageDecoder.m in Sources */,
+				248E7B891CEA84F9009751B0 /* Recompras.m in Sources */,
+				248E7B8C1CEA8A34009751B0 /* ModeloRecompra2.m in Sources */,
+				24E577741C7433D800D05E4D /* Jugadores.m in Sources */,
+				24E5776A1C74116100D05E4D /* SDWebImageManager.m in Sources */,
+				247F2FC61C730502008AAB31 /* ModeloJugador.m in Sources */,
+				BED0F5DC24772E96009D5606 /* AgregarConsignacion.m in Sources */,
+				247F2FC01C73009A008AAB31 /* Jugada.m in Sources */,
+				24E577651C74116100D05E4D /* SDImageCache.m in Sources */,
+				BED0F5D9247721B3009D5606 /* CeldaJugada.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +614,6 @@
 				2403207F1C72859800ADB6AC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		240320831C72859800ADB6AC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				240320841C72859800ADB6AC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,23 +701,46 @@
 		};
 		240320A01C72859800ADB6AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A577973C0C560AC2A8771C5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C4BPCW9KZS;
 				INFOPLIST_FILE = ChanchiPoker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.taktil.ChanchiPoker;
+				MARKETING_VERSION = 2.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariojapps.ChanchiPoker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChanchiPoker/ChanchiPoker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		240320A11C72859800ADB6AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85AC0C48D7B559DEB0BC2B8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C4BPCW9KZS;
 				INFOPLIST_FILE = ChanchiPoker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.taktil.ChanchiPoker;
+				MARKETING_VERSION = 2.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariojapps.ChanchiPoker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChanchiPoker/ChanchiPoker-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -496,6 +811,7 @@
 				240320A11C72859800ADB6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		240320A21C72859800ADB6AC /* Build configuration list for PBXNativeTarget "ChanchiPokerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +820,7 @@
 				240320A41C72859800ADB6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		240320A51C72859800ADB6AC /* Build configuration list for PBXNativeTarget "ChanchiPokerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +829,7 @@
 				240320A71C72859800ADB6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
