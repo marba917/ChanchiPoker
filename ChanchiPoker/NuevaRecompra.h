@@ -14,7 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tabla;
 
 
-- (IBAction)accion20mil:(id)sender;
+- (IBAction)accion50mil:(id)sender;
 - (IBAction)accion30mil:(id)sender;
 - (IBAction)accion40mil:(id)sender;
 - (IBAction)accionOtroValor:(id)sender;

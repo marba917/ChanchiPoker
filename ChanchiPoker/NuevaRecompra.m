@@ -96,7 +96,7 @@
 
 //--------------------------------------------------------------------------------------------------------------
 
-- (IBAction)accion20mil:(id)sender
+- (IBAction)accion50mil:(id)sender
 {
     if([idJugador isEqualToString:@""])
     {
@@ -109,7 +109,7 @@
         AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
         NSDictionary *params = @{@"id_jugador": idJugador,
                                  @"id_jugada": _idJugada,
-                                 @"valor": @"20000"};
+                                 @"valor": @"50000"};
         NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
