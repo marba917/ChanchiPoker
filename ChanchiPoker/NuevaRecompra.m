@@ -50,7 +50,7 @@
 {
     [_indicador startAnimating];
     
-    NSString *strURL2 = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/jugadores"];
+    NSString *strURL2 = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/jugadores"];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
@@ -110,7 +110,7 @@
         NSDictionary *params = @{@"id_jugador": idJugador,
                                  @"id_jugada": _idJugada,
                                  @"valor": @"50000"};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras"];
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
              NSString *result = [responseObject objectForKey:@"id"];
@@ -150,7 +150,7 @@
         NSDictionary *params = @{@"id_jugador": idJugador,
                                  @"id_jugada": _idJugada,
                                  @"valor": @"30000"};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras"];
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
              NSString *result = [responseObject objectForKey:@"id"];
@@ -188,7 +188,7 @@
         NSDictionary *params = @{@"id_jugador": idJugador,
                                  @"id_jugada": _idJugada,
                                  @"valor": @"40000"};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras"];
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
              NSString *result = [responseObject objectForKey:@"id"];
@@ -210,7 +210,7 @@
     }
 }
 
-- (IBAction)accion10mil:(id)sender {
+- (IBAction)accion100mil:(id)sender {
     
     if([idJugador isEqualToString:@""])
     {
@@ -223,8 +223,44 @@
         AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
         NSDictionary *params = @{@"id_jugador": idJugador,
                                  @"id_jugada": _idJugada,
-                                 @"valor": @"10000"};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras"];
+                                 @"valor": @"100000"};
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras"];
+        [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
+         {
+             NSString *result = [responseObject objectForKey:@"id"];
+             int idReferido = [result intValue];
+             if(idReferido > 0)
+             {
+                 [self.navigationController popViewControllerAnimated:YES];
+             }
+             else
+             {
+                 [self mostrarAlerta:@"ERROR: no se pudo crear la recompra."];
+             }
+         }
+              failure:^(AFHTTPRequestOperation *operation, NSError *error)
+         {
+             NSLog(@"Error: %@", error);
+             [self mostrarAlerta:@"ERROR: revise su conexión e intente de nuevo"];
+         }];
+    }
+}
+
+- (IBAction)accion150mil:(id)sender {
+    
+    if([idJugador isEqualToString:@""])
+    {
+        [self mostrarAlerta:@"Seleccione un jugador de la lista..."];
+    }
+    else
+    {
+        [self mostrarVistaOscura];
+        
+        AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+        NSDictionary *params = @{@"id_jugador": idJugador,
+                                 @"id_jugada": _idJugada,
+                                 @"valor": @"150000"};
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
              NSString *result = [responseObject objectForKey:@"id"];
@@ -260,7 +296,7 @@
         NSDictionary *params = @{@"id_jugador": idJugador,
                                  @"id_jugada": _idJugada,
                                  @"valor": @"15000"};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras"];
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
              NSString *result = [responseObject objectForKey:@"id"];
@@ -296,7 +332,7 @@
         NSDictionary *params = @{@"id_jugador": idJugador,
                                  @"id_jugada": _idJugada,
                                  @"valor": @"25000"};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras"];
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
              NSString *result = [responseObject objectForKey:@"id"];
@@ -342,7 +378,7 @@
         NSDictionary *params = @{@"id_jugador": idJugador,
                                  @"id_jugada": _idJugada,
                                  @"valor": _campoValor.text};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras"];
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
              NSString *result = [responseObject objectForKey:@"id"];

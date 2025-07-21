@@ -57,7 +57,7 @@
 {
     [_indicador startAnimating]; 
     
-    NSString *strURL2 = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/recompras/%@",_jugadaSeleccionada.id];
+    NSString *strURL2 = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/recompras/%@",_jugadaSeleccionada.id];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFJSONResponseSerializer serializer];

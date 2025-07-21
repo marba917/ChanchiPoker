@@ -54,7 +54,7 @@
 {
     [_indicador startAnimating];
     
-    NSString *strURL2 = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/jugadores/%@",_idJugador];
+    NSString *strURL2 = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/jugadores/%@",_idJugador];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
@@ -234,7 +234,7 @@
         
         [_indicador startAnimating];
         
-        NSString *strURL2 = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/borrarConsignacion/%@",mj.id];
+        NSString *strURL2 = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/borrarConsignacion/%@",mj.id];
         
         AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
         manager.responseSerializer = [AFJSONResponseSerializer serializer];

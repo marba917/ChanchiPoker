@@ -40,7 +40,7 @@
     {
         AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
         NSDictionary *params = @{@"nombre": _campoNombre.text};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/jugadores"];
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/jugadores"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
              NSString *result = [responseObject objectForKey:@"id"];

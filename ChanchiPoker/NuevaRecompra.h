@@ -17,6 +17,8 @@
 - (IBAction)accion50mil:(id)sender;
 - (IBAction)accion30mil:(id)sender;
 - (IBAction)accion40mil:(id)sender;
+- (IBAction)accion100mil:(id)sender;
+- (IBAction)accion150mil:(id)sender;
 - (IBAction)accionOtroValor:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UITextField *campoValor;

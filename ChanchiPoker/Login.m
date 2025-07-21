@@ -49,7 +49,7 @@
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager]; 
     NSDictionary *params = @{@"usuario": username,
                              @"password": clave};
-    NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/loginUsuarios"];
+    NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/loginUsuarios"];
     [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
      {
         [_indicador stopAnimating];

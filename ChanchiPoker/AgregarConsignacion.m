@@ -39,7 +39,7 @@
         AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
         NSDictionary *params = @{@"id_jugador": _idJugador,
                                  @"valor": _campoTexto.text};
-        NSString *ruta = [NSString stringWithFormat:@"http://www.basculasjaramillo.com/AK/WS/consignacion"];
+        NSString *ruta = [NSString stringWithFormat:@"http://206.189.195.96/chanchipoker/WS/consignacion"];
         [manager POST:ruta parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject)
          {
             [_indicador stopAnimating];
